@@ -63,7 +63,7 @@ ALTER TABLE `tb_user`
   ADD PRIMARY KEY (`id`);
 
 ALTER TABLE `tb_barang`
-  MODIFY `id_brg` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
+  MODIFY `id_brg` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
 
 ALTER TABLE `tb_invoice`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
@@ -94,4 +94,9 @@ INSERT INTO `tb_barang` (`id_brg`, `nama_brg`, `keterangan`, `kategori`, `harga`
 (17, 'Segitiga Biru Tepung Terigu 1000G', 'Segitiga Biru adalah tepung terigu yang cocok untukmembuat aneka makanan seperti bolu, brownies, cake, pisang, martabak manis, muffin, kue bulan, croissant, puff pastry, denish, bapia, pastel, kroket, risoles, dan lain-lain', 'Bahan Makanan', 15300, 60, 'tepung.jpg'),
 (18, 'Rose Brand Gula Pasir Putih 1Kg', 'Gula pasir putih yang terbuat dari gula tebu asli pilihan dan diproses secara higienis yang telah memenuhi standar mutu. Menghasilkan gula yang manis, alami, murni dan bersih', 'Bahan Makanan', 16000, 88, 'gula.jpg'),
 (19, 'Tropical Minyak Goreng 1000Ml', 'Tropical minyak goreng dengan 2x penyaringa, yang kaya akan Vitamin E yang baik. Minyak goreng sawit dengan 90mg Omega 3 per saji, 1.7g Omega 6 per saji, dan 6.7g Omega 9 per saji.', 'Bahan Makanan', 20300, 90, 'minyak.jpg'),
-(20, 'Dolphin Garam 500G', 'Cocok untuk segala masakan, maupun untuk kue-kue dan makanan ringan, dapat dipakai langsung di dapur ataupun di meja makan', 'Bahan Makanan', 11500, 10, 'garam.jpeg');
+(20, 'Dolphin Garam 500G', 'Cocok untuk segala masakan, maupun untuk kue-kue dan makanan ringan, dapat dipakai langsung di dapur ataupun di meja makan', 'Bahan Makanan', 11500, 10, 'garam.jpeg'),
+(21, 'Choice Fried Chicken Paha Bawah', 'Daging ayam bagian paha bawah pilihan dibalut tepung dan di goreng dengan renyah dan garing menjadikan rasa ayam goreng yang enak dan citarasa khas yummy fried chicken.', 'Makanan', 11500, 30, 'paha_bawah.jpg'),
+(22, 'Choice Crispy Boneless Chicken', 'Ayam fillet goreng tepung, disajikan dengan bumbu tabur rasa barbeque pedas.', 'Makanan', 10000, 200, 'boneless.jpg'),
+(23, 'Yummy Choice French Fries', 'Kentang goreng yang dipotong tipis dan digoreng dalam keadaan beku untuk mendapatkan tekstur yang lebih crunch', 'Makanan', 12000, 20, 'french.jpg'),
+(24, 'Choice Fried Chicken Paha Atas', 'Daging ayam bagian paha atas pilihan dibalut tepung dan di goreng dengan renyah dan garing menjadikan rasa ayam goreng yang enak dan citarasa khas yummy fried chicken.', 'Makanan', 20100, 40, 'paha_atas.jpg'),
+(25, 'Choice Fried Chicken Sayap', 'Daging ayam bagian sayap pilihan dibalut tepung dan di goreng dengan renyah dan garing menjadikan rasa ayam goreng yang enak dan citarasa khas yummy fried chicken', 'Makanan', 15600, 21, 'sayap.jpg');
