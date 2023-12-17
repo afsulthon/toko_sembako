@@ -1,9 +1,6 @@
-CREATE DATABASE IF NOT EXISTS `toko_sembako` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+DROP DATABASE IF EXISTS `toko_sembako`;
+CREATE DATABASE `toko_sembako`;
 USE `toko_sembako`;
-
-SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-START TRANSACTION;
-SET time_zone = "+00:00";
 
 CREATE TABLE `tb_barang` (
   `id_brg` int(11) NOT NULL,
@@ -13,7 +10,7 @@ CREATE TABLE `tb_barang` (
   `harga` int(11) NOT NULL,
   `stok` int(4) NOT NULL,
   `gambar` text NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+);
 
 CREATE TABLE `tb_invoice` (
   `id` int(11) NOT NULL,
@@ -21,7 +18,7 @@ CREATE TABLE `tb_invoice` (
   `alamat` varchar(225) NOT NULL,
   `tgl_pesan` datetime NOT NULL,
   `batas_bayar` datetime NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+);
 
 CREATE TABLE `tb_pesanan` (
   `id` int(11) NOT NULL,
@@ -31,7 +28,7 @@ CREATE TABLE `tb_pesanan` (
   `jumlah` int(3) NOT NULL,
   `harga` int(10) NOT NULL,
   `pilihan` text NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+);
 
 DELIMITER $$
 CREATE TRIGGER `pesanan_penjualan` AFTER INSERT ON `tb_pesanan` FOR EACH ROW BEGIN
@@ -47,7 +44,7 @@ CREATE TABLE `tb_user` (
   `username` varchar(50) NOT NULL,
   `password` varchar(50) NOT NULL,
   `role_id` tinyint(1) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+);
 
 INSERT INTO `tb_user` (`id`, `nama`, `username`, `password`, `role_id`) VALUES
 (1, 'admin', 'admin', '123', 1),

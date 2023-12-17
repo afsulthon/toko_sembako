@@ -4,12 +4,12 @@
   <div id="wrapper">
 
     <!-- Sidebar -->
-    <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+    <ul class="navbar-nav  sidebar sidebar-dark accordion" id="accordionSidebar" style="background-color: #5c49ee">
 
       <!-- Sidebar - Brand -->
       <a class="sidebar-brand d-flex align-items-center justify-content-center" href="<?php echo base_url(); ?>">
         <div class="sidebar-brand-icon">
-          <i class="fas fa-store"></i>
+        <i class="fa-brands fa-shopify"></i>
         </div>
         <div class="sidebar-brand-text mx-3">Toko Sembako</div>
       </a>
@@ -34,33 +34,34 @@
 
       <!-- Nav Item - Tables -->
       <li class="nav-item">
-        <a class="nav-link" href="<?php echo base_url(); ?>kategori/kategori_1">
-          <i class="fas fa-fw fa-table"></i>
-          <span>Kategori 1</span></a>
+        <a class="nav-link" href="<?php echo base_url(); ?>kategori/makanan">
+          <i class="fas fa-utensils"></i>
+          <span>Makanan</span></a>
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="<?php echo base_url(); ?>kategori/kategori_2">
-          <i class="fas fa-fw fa-table"></i>
-          <span>Kategori 2</span></a>
+        <a class="nav-link" href="<?php echo base_url(); ?>kategori/minuman">
+        <i class="fa-solid fa-bottle-droplet"></i>
+          <span>Minuman</span></a>
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="<?php echo base_url(); ?>kategori/kategori_3">
-          <i class="fas fa-fw fa-table"></i>
-          <span>Kategori 3</span></a>
+        <a class="nav-link" href="<?php echo base_url(); ?>kategori/bahan_makanan">
+        <i class="fa-brands fa-pagelines"></i>
+          <span>Bahan Makanan</span></a>
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="<?php echo base_url(); ?>kategori/kategori_4">
-          <i class="fas fa-fw fa-table"></i>
-          <span>Kategori 4</span></a>
+        <a class="nav-link" href="<?php echo base_url(); ?>kategori/pembersih">
+        <i class="fa-solid fa-hand-sparkles"></i>
+          <span>Pembersih</span></a>
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="<?php echo base_url(); ?>kategori/kategori_5">
-          <i class="fas fa-fw fa-table"></i>
-          <span>Kategori 5</span></a>
+        <a class="nav-link" href="<?php echo base_url(); ?>kategori/lain_lain">
+          <i class="fa-brands fa-ethereum"></i>
+          
+          <span>Lain-lain</span></a>
       </li>
 
       <!-- Divider -->

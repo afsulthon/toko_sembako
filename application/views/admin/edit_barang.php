@@ -17,7 +17,14 @@
 
       <div class="for-group mb-2">
         <label>Kategori</label>
-        <input type="text" name="kategori" class="form-control" value="<?php echo $brg->kategori ?>">
+        <select class="form-control" name="kategori">
+          <option><?php echo $brg->kategori ?></option>
+          <option>Makanan</option>
+          <option>Minuman</option>
+          <option>Bahan Makanan</option>
+          <option>Pembersih</option>
+          <option>Lain-lain</option>
+        </select>
       </div>
 
       <div class="for-group mb-2">

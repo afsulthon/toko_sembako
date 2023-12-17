@@ -2,28 +2,28 @@
 
 class Model_kategori extends CI_Model
 {
-  public function data_kategori_1()
+  public function data_makanan()
   {
-    return $this->db->get_where("tb_barang", array("kategori" => "kategori 1"));
+    return $this->db->get_where("tb_barang", array("kategori" => "Makanan"));
   }
 
-  public function data_kategori_2()
+  public function data_minuman()
   {
-    return $this->db->get_where("tb_barang", array("kategori" => "kategori 2"));
+    return $this->db->get_where("tb_barang", array("kategori" => "Minuman"));
   }
 
-  public function data_kategori_3()
+  public function data_bahan_makanan()
   {
-    return $this->db->get_where("tb_barang", array("kategori" => "kategori 3"));
+    return $this->db->get_where("tb_barang", array("kategori" => "Bahan Makanan"));
   }
 
-  public function data_kategori_4()
+  public function data_pembersih()
   {
-    return $this->db->get_where("tb_barang", array("kategori" => "kategori 4"));
+    return $this->db->get_where("tb_barang", array("kategori" => "Pembersih"));
   }
 
-  public function data_kategori_5()
+  public function data_lain_lain()
   {
-    return $this->db->get_where("tb_barang", array("kategori" => "kategori 5"));
+    return $this->db->get_where("tb_barang", array("kategori" => "Lain-lain"));
   }
 }

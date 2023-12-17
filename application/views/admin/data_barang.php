@@ -58,11 +58,11 @@
           <div class="form-group">
             <label for="Kategori">Kategori</label>
             <select class="form-control" name="kategori">
-              <option>Elektronik</option>
-              <option>Pakaian Pria</option>
-              <option>Pakaian Wanita</option>
-              <option>Pakaian Anak-anak</option>
-              <option>Peralatan Olahraga</option>
+              <option>Makanan</option>
+              <option>Minuman</option>
+              <option>Bahan Makanan</option>
+              <option>Pembersih</option>
+              <option>Lain-lain</option>
             </select>
           </div>
           <div class="form-group">

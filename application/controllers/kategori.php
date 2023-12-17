@@ -2,48 +2,48 @@
 
 class Kategori extends CI_Controller
 {
-  public function kategori_1()
+  public function makanan()
   {
-    $data['kategori_1'] = $this->model_kategori->data_kategori_1()->result();
+    $data['makanan'] = $this->model_kategori->data_makanan()->result();
     $this->load->view("templates/header");
     $this->load->view("templates/sidebar");
-    $this->load->view("kategori_1", $data);
+    $this->load->view("makanan", $data);
     $this->load->view("templates/footer");
   }
 
-  public function kategori_2()
+  public function minuman()
   {
-    $data['kategori_2'] = $this->model_kategori->data_kategori_2()->result();
+    $data['minuman'] = $this->model_kategori->data_minuman()->result();
     $this->load->view("templates/header");
     $this->load->view("templates/sidebar");
-    $this->load->view("kategori_2", $data);
+    $this->load->view("minuman", $data);
     $this->load->view("templates/footer");
   }
 
-  public function kategori_3()
+  public function bahan_makanan()
   {
-    $data['kategori_3'] = $this->model_kategori->data_kategori_3()->result();
+    $data['bahan_makanan'] = $this->model_kategori->data_bahan_makanan()->result();
     $this->load->view("templates/header");
     $this->load->view("templates/sidebar");
-    $this->load->view("kategori_3", $data);
+    $this->load->view("bahan_makanan", $data);
     $this->load->view("templates/footer");
   }
 
-  public function kategori_4()
+  public function pembersih()
   {
-    $data['kategori_4'] = $this->model_kategori->data_kategori_4()->result();
+    $data['pembersih'] = $this->model_kategori->data_pembersih()->result();
     $this->load->view("templates/header");
     $this->load->view("templates/sidebar");
-    $this->load->view("kategori_4", $data);
+    $this->load->view("pembersih", $data);
     $this->load->view("templates/footer");
   }
 
-  public function kategori_5()
+  public function lain_lain()
   {
-    $data['kategori_5'] = $this->model_kategori->data_kategori_5()->result();
+    $data['lain_lain'] = $this->model_kategori->data_lain_lain()->result();
     $this->load->view("templates/header");
     $this->load->view("templates/sidebar");
-    $this->load->view("kategori_5", $data);
+    $this->load->view("lain_lain", $data);
     $this->load->view("templates/footer");
   }
 }
