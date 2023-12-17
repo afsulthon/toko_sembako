@@ -63,7 +63,7 @@ ALTER TABLE `tb_user`
   ADD PRIMARY KEY (`id`);
 
 ALTER TABLE `tb_barang`
-  MODIFY `id_brg` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id_brg` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
 
 ALTER TABLE `tb_invoice`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
@@ -85,3 +85,13 @@ INSERT INTO `tb_barang` (`id_brg`, `nama_brg`, `keterangan`, `kategori`, `harga`
 (8, 'Pixy Vitamin Infused Brightening Mist Light Radiance 60mL', 'Face mist dari PIXY yang mampu melembapkan dan memberi nutrisi untuk kulitmu dimanapun dan kapanpun. Dapat digunakan sebagai Hydrating Toner sebelum menggunakan pelembap.', 'Lain-lain', 14000, 40, 'serum.jpg'),
 (9, 'Kenko Gel Pen+Highlighter Gp-20Hl 2s', 'Pena dan Highlighter', 'Lain-lain', 14000, 50, 'pulpen.jpg'),
 (10, 'Deli School Correction Tape - 8101', 'Correction tape, Tip-x, Correction Pen, Pulpen, Deli, Deli E8101', 'Lain-lain', 10000, 30, 'correction_tape.jpg');
+(11, 'Pucuk Harum Minuman Teh Melati 350Ml', 'Teh pucuk harum minuman teh beraroma melati dibuat dengan pucuk daun teh pilihan dengan ekstrak melati yang menyegarkan.', 'Minuman', 3800, 20000, 'pucuk.jpg'),
+(12, 'Sprite Soft Drink 250Ml', 'Sprite minuman berperisa jeruk lemon dan lime berkarbonasi, kemasan pas harga pas.', 'Minuman', 3500, 200, 'sprite.jpg'),
+(13, 'Frisian Flag Susu Sereal Cair Uht Cokelat 225mL', 'Susu Sereal Cokelat dengan kandungan 8 vitamin dan 3 mineral', 'Minuman', 6300, 100, 'frisian.jpg'),
+(14, 'Coca-Cola Soft Drink 1500Ml', 'Coca cola minuman beraroma kola berkarbonasi botol 1500mL', 'Minuman', 12900, 10, 'coca.jpg'),
+(15, 'Club Air Mineral 1500Ml', 'Club air minum dalam kemasan botol 1500mL', 'Minuman', 4200, 999, 'club.jpg'),
+(16, 'Indomaret Beras Pulen Wangi Premium 5Kg', 'Beras premium', 'Bahan Makanan', 69500, 20, 'beras.jpg'),
+(17, 'Segitiga Biru Tepung Terigu 1000G', 'Segitiga Biru adalah tepung terigu yang cocok untukmembuat aneka makanan seperti bolu, brownies, cake, pisang, martabak manis, muffin, kue bulan, croissant, puff pastry, denish, bapia, pastel, kroket, risoles, dan lain-lain', 'Bahan Makanan', 15300, 60, 'tepung.jpg'),
+(18, 'Rose Brand Gula Pasir Putih 1Kg', 'Gula pasir putih yang terbuat dari gula tebu asli pilihan dan diproses secara higienis yang telah memenuhi standar mutu. Menghasilkan gula yang manis, alami, murni dan bersih', 'Bahan Makanan', 16000, 88, 'gula.jpg'),
+(19, 'Tropical Minyak Goreng 1000Ml', 'Tropical minyak goreng dengan 2x penyaringa, yang kaya akan Vitamin E yang baik. Minyak goreng sawit dengan 90mg Omega 3 per saji, 1.7g Omega 6 per saji, dan 6.7g Omega 9 per saji.', 'Bahan Makanan', 20300, 90, 'minyak.jpg'),
+(20, 'Dolphin Garam 500G', 'Cocok untuk segala masakan, maupun untuk kue-kue dan makanan ringan, dapat dipakai langsung di dapur ataupun di meja makan', 'Bahan Makanan', 11500, 10, 'garam.jpeg');
