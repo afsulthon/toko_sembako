@@ -84,7 +84,7 @@ INSERT INTO `tb_barang` (`id_brg`, `nama_brg`, `keterangan`, `kategori`, `harga`
 (7, 'Bellagio Homme Pomade Kidz Bubblegum 40G', 'Mengandung Argan Oil untuk menutrisi dan menghaluskan rambut, serta melembabkan kulit kepada. Dengan aroma bubblegum yang segar dan menenangkan. Water Based - mudah dibilas dengan air.', 'Lain-lain', 16000, 20, 'pomade.jpg'),
 (8, 'Pixy Vitamin Infused Brightening Mist Light Radiance 60mL', 'Face mist dari PIXY yang mampu melembapkan dan memberi nutrisi untuk kulitmu dimanapun dan kapanpun. Dapat digunakan sebagai Hydrating Toner sebelum menggunakan pelembap.', 'Lain-lain', 14000, 40, 'serum.jpg'),
 (9, 'Kenko Gel Pen+Highlighter Gp-20Hl 2s', 'Pena dan Highlighter', 'Lain-lain', 14000, 50, 'pulpen.jpg'),
-(10, 'Deli School Correction Tape - 8101', 'Correction tape, Tip-x, Correction Pen, Pulpen, Deli, Deli E8101', 'Lain-lain', 10000, 30, 'correction_tape.jpg');
+(10, 'Deli School Correction Tape - 8101', 'Correction tape, Tip-x, Correction Pen, Pulpen, Deli, Deli E8101', 'Lain-lain', 10000, 30, 'correction_tape.jpg'),
 (11, 'Pucuk Harum Minuman Teh Melati 350Ml', 'Teh pucuk harum minuman teh beraroma melati dibuat dengan pucuk daun teh pilihan dengan ekstrak melati yang menyegarkan.', 'Minuman', 3800, 20000, 'pucuk.jpg'),
 (12, 'Sprite Soft Drink 250Ml', 'Sprite minuman berperisa jeruk lemon dan lime berkarbonasi, kemasan pas harga pas.', 'Minuman', 3500, 200, 'sprite.jpg'),
 (13, 'Frisian Flag Susu Sereal Cair Uht Cokelat 225mL', 'Susu Sereal Cokelat dengan kandungan 8 vitamin dan 3 mineral', 'Minuman', 6300, 100, 'frisian.jpg'),
